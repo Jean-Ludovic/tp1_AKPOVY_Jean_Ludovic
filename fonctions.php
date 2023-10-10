@@ -5,7 +5,11 @@ function valid_password($password){
     if (strlen($password)<6 || strlen($password)>10){
     return $mdp_error    }
     else{
-        echo $mdp_salt;
+        
+       $encoded_password= sha1($password);
+       echo $encoded_password;
+        $final_message =$mdp_salt."<br><br>".$encoded_password;
+        
     }
     }
   
