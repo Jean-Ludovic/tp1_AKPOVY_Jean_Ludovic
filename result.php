@@ -6,4 +6,4 @@ require_once("fonctions.php");
     }else{
         $resultat="il faut recommencer";
     }
-    echo $resultat;
+    echo '<div class="success-message">' . $resultat . '</div>'; 

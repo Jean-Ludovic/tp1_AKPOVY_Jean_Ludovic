@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Validation de mot de passe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
     <h1>Validation de mot de passe</h1>
